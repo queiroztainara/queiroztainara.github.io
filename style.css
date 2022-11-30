@@ -1,0 +1,32 @@
+body {
+    margin: 100px;
+
+    background-color: rgb(224, 238, 230);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    margin-right: 50px;
+}
+
+
+.foto1{ width: 500px;}
+
+.foto3{ width: 400px;}
+@media screen and (max-width:800px) {
+    nav {visibility: hidden;}
+}
+ 
